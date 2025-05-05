@@ -1,0 +1,65 @@
+{
+    "camera": {
+        "position": [ 0.0, 0.0, 10.0 ],
+        "rotation": [ 0.0, 0.0, 0.0 ],
+        "yFovDeg": 60
+    },
+    "scene": [
+        {
+            "name": "cornell_box_ceiling",
+            "position": [ 0.0, -4.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 4.0, 4.0, 4.0 ],
+            "mesh": "ceiling",
+            "material": "lambertian"
+        },
+        {
+            "name": "cornell_box_floor",
+            "position": [ 0.0, -4.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 4.0, 4.0, 4.0 ],
+            "mesh": "floor",
+            "material": "lambertian"
+        },
+        {
+            "name": "cornell_box_left",
+            "position": [ 0.0, -4.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 4.0, 4.0, 4.0 ],
+            "mesh": "left",
+            "material": "lambertian_red"
+        },
+        {
+            "name": "cornell_box_right",
+            "position": [ 0.0, -4.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 4.0, 4.0, 4.0 ],
+            "mesh": "right",
+            "material": "lambertian_green"
+        },
+        {
+            "name": "cornell_box_back",
+            "position": [ 0.0, -4.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 4.0, 4.0, 4.0 ],
+            "mesh": "back",
+            "material": "lambertian"
+        },
+        {
+            "name": "teapot",
+            "position": [ 0.0, -2.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 0.2, 0.2, 0.2 ],
+            "mesh": "teapot",
+            "material": "lambertian"
+        },
+        {
+            "name": "light_sphere",
+            "position": [ 3.0, 2.0, -1.0 ],
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 0.1, 0.1, 0.1 ],
+            "mesh": "sphere",
+            "material": "light"
+        }
+    ]
+}
