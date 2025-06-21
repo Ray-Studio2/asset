@@ -55,10 +55,10 @@
         },
         {
             "name": "light_quad",
-            "position": [ 0.0, 3.9, 0.0 ],
+            "position": [ 0.0, 3.99, 0.0 ],
             "rotation": [ 0.0, 0.0, 0.0 ],
             "scale": [ 1.0, 1.0, 1.0 ],
-            "mesh": "quad",
+            "mesh": "quad-inverted",
             "material": "light"
         }
     ]
