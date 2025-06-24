@@ -1,0 +1,79 @@
+{
+    "camera": {
+        "position": [ 0.0, 0.0, 10.0 ],
+        "rotation": [ 0.0, 0.0, 0.0 ],
+        "yFovDeg": 60,
+        "resolution": [1200, 800],
+        "sampling": "bruteforce",
+        "maxDepth": 5,
+        "spp": 2048,
+        "exposure": 1.66
+    },
+
+    "envmap": {
+        "image": "reichstag_1_4k.hdr",
+        "rotation": 0.0,
+        "emittanceScale": 1.0
+    },
+
+    "materials": {
+        "light": {
+            "emittance": 1.0,
+            "baseColor": [ 0.0, 0.0, 0.0 ]
+        },
+        "lambertian": {
+            "baseColor": [ 0.8, 0.8, 0.8 ]
+        },
+        "lambertian_red": {
+            "baseColor": [ 0.9, 0.1, 0.1 ]
+        },
+        "lambertian_green": {
+            "baseColor": [ 0.1, 0.9, 0.1 ]
+        }
+    },
+    
+    "sceneComponets": {
+        "cornell_box_ceiling": {
+            "position": [ 0.0, -4.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 4.0, 4.0, 4.0 ],
+            "mesh": "ceiling.obj",
+            "material": "lambertian"
+        },
+        "cornell_box_floor": {
+            "position": [ 0.0, -4.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 4.0, 4.0, 4.0 ],
+            "mesh": "floor.obj",
+            "material": "lambertian"
+        },
+        "cornell_box_left": {
+            "position": [ 0.0, -4.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 4.0, 4.0, 4.0 ],
+            "mesh": "left.obj",
+            "material": "lambertian_red"
+        },
+        "cornell_box_right": {
+            "position": [ 0.0, -4.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 4.0, 4.0, 4.0 ],
+            "mesh": "right.obj",
+            "material": "lambertian_green"
+        },
+        "cornell_box_back": {
+            "position": [ 0.0, -4.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 4.0, 4.0, 4.0 ],
+            "mesh": "back.obj",
+            "material": "lambertian"
+        },
+        "teapot": {
+            "position": [ 0.0, -2.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 0.2, 0.2, 0.2 ],
+            "mesh": "teapot.obj",
+            "material": "lambertian"
+        }
+    }
+}
