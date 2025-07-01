@@ -5,6 +5,7 @@
         "yFovDeg": 60,
         "resolution": [1200, 800],
         "sampling": "nee",
+        "lightSampling": "light_only",
         "maxDepth": 5,
         "spp": 128,
         "exposure": 1.66
@@ -12,7 +13,7 @@
 
     "materials": {
         "light": {
-            "emittance": 1.0,
+            "emittance": 10.0,
             "baseColor": [ 0.0, 0.0, 0.0 ]
         },
         "lambertian": {
@@ -72,7 +73,7 @@
         "light_sphere": {
             "position": [ 3.0, 2.0, -1.0 ],
             "rotation": [ 0.0, 0.0, 0.0 ],
-            "scale": [ 0.1, 0.1, 0.1 ],
+            "scale": [ 0.5, 0.5, 0.5 ],
             "mesh": "sphere.obj",
             "material": "light"
         }

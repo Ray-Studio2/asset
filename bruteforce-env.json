@@ -5,6 +5,7 @@
         "yFovDeg": 60,
         "resolution": [1200, 800],
         "sampling": "bruteforce",
+        "lightSampling": "env_map",
         "maxDepth": 5,
         "spp": 2048,
         "exposure": 1.66

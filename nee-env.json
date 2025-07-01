@@ -5,6 +5,7 @@
         "yFovDeg": 60,
         "resolution": [1200, 800],
         "sampling": "nee",
+        "lightSampling": "env_map",
         "maxDepth": 5,
         "spp": 128,
         "exposure": 1.66
