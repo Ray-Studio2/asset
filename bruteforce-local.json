@@ -7,7 +7,7 @@
         "sampling": "bruteforce",
         "lightSampling": "light_only",
         "maxDepth": 5,
-        "spp": 2048,
+        "spp": 1024,
         "exposure": 1.66
     },
 
@@ -24,6 +24,14 @@
         },
         "lambertian_green": {
             "baseColor": [ 0.1, 0.9, 0.1 ]
+        },
+        "gold": {
+            "roughness": 0.8,
+            "baseColor": [ 0.787, 0.686, 0.216 ]
+        },
+        "mirror": {
+            "roughness": 0.01,
+            "baseColor": [ 0.9, 0.9, 0.9 ]
         }
     },
     
@@ -40,7 +48,7 @@
             "rotation": [ 0.0, 0.0, 0.0 ],
             "scale": [ 4.0, 4.0, 4.0 ],
             "mesh": "floor.obj",
-            "material": "lambertian"
+            "material": "mirror"
         },
         "cornell_box_left": {
             "position": [ 0.0, -4.0, 0.0 ],
@@ -68,7 +76,7 @@
             "rotation": [ 0.0, 0.0, 0.0 ],
             "scale": [ 0.2, 0.2, 0.2 ],
             "mesh": "teapot.obj",
-            "material": "lambertian"
+            "material": "gold"
         },
         "light_sphere": {
             "position": [ 3.0, 2.0, -1.0 ],
