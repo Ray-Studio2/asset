@@ -76,7 +76,7 @@
             "rotation": [ 0.0, 0.0, 0.0 ],
             "scale": [ 0.2, 0.2, 0.2 ],
             "mesh": "teapot.obj",
-            "material": "ggx"
+            "material": "gold"
         },
         "light_sphere": {
             "position": [ 3.0, 2.0, -1.0 ],
