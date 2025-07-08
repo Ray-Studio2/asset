@@ -14,26 +14,28 @@
     "materials": {
         "light": {
             "emittance": 10.0,
+            "metallic": 0.0,
+            "roughness": 1.0,
             "baseColor": [ 0.0, 0.0, 0.0 ]
         },
         "lambertian": {
             "metallic": 0.0,
-            "roughness": 0.0,
+            "roughness": 1.0,
             "baseColor": [ 0.8, 0.8, 0.8 ]
         },
         "lambertian_red": {
             "metallic": 0.0,
-            "roughness": 0.0,
+            "roughness": 1.0,
             "baseColor": [ 0.9, 0.1, 0.1 ]
         },
         "lambertian_green": {
             "metallic": 0.0,
-            "roughness": 0.0,
+            "roughness": 1.0,
             "baseColor": [ 0.1, 0.9, 0.1 ]
         },
         "gold": {
             "metallic": 1.0,
-            "roughness": 0.8,
+            "roughness": 0.4,
             "baseColor": [ 0.787, 0.686, 0.216 ]
         },
         "mirror": {
