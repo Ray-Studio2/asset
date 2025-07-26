@@ -1,0 +1,45 @@
+{
+    "camera": {
+        "position": [ 0.0, 0.0, 10.0 ],
+        "rotation": [ 0.0, 0.0, 0.0 ],
+        "yFovDeg": 60,
+        "resolution": [1200, 800],
+        "sampling": "nee",
+        "lightSampling": "env_map",
+        "maxDepth": 5,
+        "spp": 512,
+        "exposure": 1.66
+    },
+
+    "envmap": {
+        "image": "orlando_stadium_2k.hdr",
+        "rotation": 0.0,
+        "emittanceScale": 1.0
+    },
+
+    "materials": {
+        "disneyDefault": {
+            "baseColor": [ 0.82, 0.67, 0.16 ],
+            "metallic": 0.0,
+            "subsurface": 0.0,
+            "specular": 0.5,
+            "roughness": 0.5,
+            "specularTint": 0.0,
+            "anisotropic": 0.0,
+            "sheen": 0.0,
+            "sheenTint": 0.5,
+            "clearcoat": 0.0,
+            "clearcoatGloss": 1.0
+        }
+    },
+    
+    "sceneComponets": {
+        "teapot": {
+            "position": [ 0.0, -3.5, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 2.5, 2.5, 2.5 ],
+            "mesh": "lucy.obj",
+            "material": "disneyDefault"
+        }
+    }
+}

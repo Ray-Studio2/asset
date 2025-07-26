@@ -7,7 +7,7 @@
         "sampling": "nee",
         "lightSampling": "env_map",
         "maxDepth": 5,
-        "spp": 64,
+        "spp": 512,
         "exposure": 1.66
     },
 
